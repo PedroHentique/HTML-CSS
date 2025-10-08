@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(17, 0, 255) 
+    
+}
+
+h1{
+    color: white; 
+    text-align: center; 
+    font-size: 2em; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: rgb(15, 2, 187) ;
+    text-shadow: 1px 3px 5px rgba(17, 0, 255, 0.441);
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1em; 
+}
+
+a{
+    color: rgb(0, 0, 0); 
+    text-align: justify center;
+}
+
+ul{
+    color: black; 
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
+ul{
+    font-size: larger; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px #08194cd0;
+    width: 600px;
+    padding: 10px;
+    margin: auto
+}
+

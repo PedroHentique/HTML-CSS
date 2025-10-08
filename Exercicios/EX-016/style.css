@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+
+h1{
+    color: rgb(255, 00, 00);
+    font-size: 6em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+p{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    place-items: center;
+    color: black;
+    border-bottom: 20px;
+    border-color: brown;
+}
+

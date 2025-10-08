@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <big>
+        <i>
+            <h1>Imagem dinâmica</h1>
+        </i>
+    </big>
+    <strong>
+        <code>
+            <p>Tente abrir esse site em vários dispositivos diferente ou simplismente aumente ou diminua o tamanho do seu navegador</p>
+                </strong>
+        </code>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagens flexiveis">
+    </picture><hr><hr>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos apender a produzir audios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midia/Lola Young - Messy (Official Video).mp3" type="audio/mpeg">
+    </audio><hr><hr>
+         <big>
+             <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Lola Young - Messy (Official Video).mp3" download="audioteste" type="aplication/mp3"> clique aqui para abaixar o arquivo MP3</a></p>
+         </big>   
+</body>
+</html>

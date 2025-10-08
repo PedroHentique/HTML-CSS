@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, rgba(3, 72, 3, 0.675));
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, green, rgba(7, 61, 7, 0.784));
+    padding: 10px;
+    box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header > p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-bottom:  5px;
+}
+
+header > h1 {
+    font-size: 3em;
+}
+
+nav {
+    background-color: rgba(7, 61, 7, 0.395);
+    box-shadow: 3px 5px 10px rgba(7, 61, 7, 0.344);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+nav > a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+#todo {
+    padding-top: 1px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+}    
+
+#todo > p {
+    font-size: 1.2em;
+}
+
+.robo {
+    width: 1500px;
+}
+
+.mulher {
+    width: 1500px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(3, 72, 3, 0.9);
+    color: white;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+footer > p {
+    margin: 0px;
+    text-align: center;
+}
+
+.final {
+    background-color: rgba(3, 72, 3, 0.768);
+    border-radius: 10px;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px 30px 5px 30px;
+    height: 650px;
+}
+
+.centro {
+    padding-top: 70px;
+}
+
+
+article {
+    background-color: rgba(5, 105, 5, 0.766);
+    padding: 3px;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.397);
+    border-radius: 60px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+article > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+article > p {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.final > p {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lista-flex {
+  columns: 2; /* divide em 2 colunas */
+  -webkit-columns: 2; /* compatibilidade */
+  -moz-columns: 2;
+  list-style-position: inside; /* bullets dentro da coluna */
+  list-style: none;
+  
+
+}
+
+.grifo {
+    color:rgb(5, 5, 5);
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.pfinal {
+    margin: 10px;
+    padding: 30px;
+}
+
+.youtube {
+    background-color: rgb(3, 72, 3);
+    padding: 30px;
+}
+
+.titulo {
+    background-image: linear-gradient(to right, rgba(3, 72, 3, 0.588), rgba(3, 72, 3, 0.126), rgba(255, 255, 255, 0));
+    padding: 5px 0px 5px 20px;
+    margin: 10px 0px 10px 5px;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2em;
+}
